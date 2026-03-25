@@ -17,12 +17,12 @@ class QuoteScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              SizedBox(height: 20),
+              SizedBox(height: 200),
               Container(
-                height: 200,
-                width: 200,
-                color: Colors.white,
-                child: Image.asset("assets/images/bg.jpg")
+                child: Image.asset("assets/images/bg.jpg",
+                fit: BoxFit.cover,
+                )
+                
               ),
               SizedBox(height: 20,),
               Container(
