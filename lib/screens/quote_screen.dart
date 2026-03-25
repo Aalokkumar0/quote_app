@@ -8,7 +8,7 @@ class QuoteScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: const Color.fromARGB(255, 52, 29, 29),
         title: Text("Quote Screen", style: TextStyle(color: Colors.white)),
       ),
       body: SingleChildScrollView(
@@ -17,18 +17,12 @@ class QuoteScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Container(
-                height: 200,
-                width: 200,
-                color: Colors.white,
-                child: Center(child: Text("this is cloumn container.")),
-              ),
               SizedBox(height: 20),
               Container(
                 height: 200,
                 width: 200,
                 color: Colors.white,
-                child: Center(child: Text("this is cloumn container.")),
+                child: Image.asset("assets/images/bg.jpg")
               ),
               SizedBox(height: 20,),
               Container(
