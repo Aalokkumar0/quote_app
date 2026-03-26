@@ -31,7 +31,7 @@ class _QuoteScreenState extends State<QuoteScreen> {
       backgroundColor: const Color.fromARGB(81, 53, 16, 16),
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
-          padding: const EdgeInsets.all(19.0),
+          padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 30),
           child: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
