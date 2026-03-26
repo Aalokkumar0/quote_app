@@ -55,10 +55,15 @@ class _QuoteScreenState extends State<QuoteScreen> {
               SizedBox(height: 40,),
         
               ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  backgroundColor:Color.fromARGB(87, 156, 169, 8),
+                  foregroundColor: Colors.white,
+                  padding: EdgeInsets.symmetric(horizontal: 50)
+                ),
                 onPressed: () {
                   print("Button Pressed");
                 },
-                child: Text("inspire me"),
+                child: Text("Inspire Me",style: TextStyle(fontWeight: FontWeight.w900),),
               ),
             ],
           ),
