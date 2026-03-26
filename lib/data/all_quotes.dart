@@ -97,6 +97,105 @@
       "Quote": "“It does not do to dwell on dreams and forget to live.”",
       "Auth": "― J.K. Rowling, Harry Potter and the Sorcerer's Stone",
     },
+
+
+    {
+       "Quote": " “Good friends, good books, and a sleepy conscience: this is the ideal life.” ",
+       "Auth": " ― Mark Twain "
+    },
+
+    {
+       "Quote": " “As he read, I fell in love the way you fall asleep: slowly, and then all at once.”",
+       "Auth": " ― John Green, The Fault in Our Stars  "
+    },
+
+    {
+       "Quote": " “We are all in the gutter, but some of us are looking at the stars.” ",
+       "Auth": " ― Oscar Wilde, Lady Windermere's Fan "
+    },
+
+    {
+       "Quote": " “The fool doth think he is wise, but the wise man knows himself to be a fool.”",
+       "Auth": " ― William Shakespeare, As You Like It  "
+    },
+
+    {
+       "Quote": " “Fairy tales are more than true: not because they tell us that dragons exist, but because they tell us that dragons can be beaten.” ",
+       "Auth": " ― Neil Gaiman, Coraline   "
+    },
+
+    {
+       "Quote": " “It is better to remain silent at the risk of being thought a fool, than to talk and remove all doubt of it.” ",
+       "Auth": " ― Maurice Switzer, Mrs. Goose, Her Book "
+    },
+
+    {
+       "Quote": " “Whenever you find yourself on the side of the majority, it is time to reform (or pause and reflect).” ",
+       "Auth": " ― Mark Twain "
+    },
+
+    {
+       "Quote": " “Life is what happens to us while we are making other plans.” ",
+       "Auth": " ― Allen Saunders "
+    },
+
+    {
+       "Quote": " “Yesterday is history, tomorrow is a mystery, today is a gift of God, which is why we call it the present.” ",
+       "Auth": " ― Bill Keane "
+    },
+
+    {
+       "Quote": " “It is not a lack of love, but a lack of friendship that makes unhappy marriages.” ",
+       "Auth": " ― Friedrich Nietzsche "
+    },
+
+    {
+       "Quote": " “I have not failed. I've just found 10,000 ways that won't work.” ",
+       "Auth": "― Thomas A. Edison "
+    },
+
+    {
+       "Quote": " “The opposite of love is not hate, it's indifference. The opposite of art is not ugliness, it's indifference. The opposite of faith is not heresy, it's indifference. And the opposite of life is not death, it's indifference.” ",
+       "Auth": " ― Elie Wiesel "
+    },
+
+    {
+       "Quote": " “The man who does not read has no advantage over the man who cannot read.”",
+       "Auth": " ― Mark Twain  "
+    },
+
+    {
+       "Quote": " “A woman is like a tea bag; you never know how strong it is until it's in hot water.”",
+       "Auth": " ― Eleanor Roosevelt  "
+    },
+
+    {
+       "Quote": " ” जहां एक निराशावादी व्यक्ति ,किसी भी कार्य में उसका दुष्परिणाम ढूंढ लेता है। वहीं लगनशील और आशावादी व्यक्ति हर एक कठिन कार्य में भी एक अवसर ढूंढ लेता है।” ",
+       "Auth": " Unknown "
+    },
+
+    {
+       "Quote": " धन – हीन को अच्छा वक्त आने की उम्मीद सदैव रहती है किंतु अमीरों को बुरा वक्त आने का खौफ। ",
+       "Auth": " Unknown  "
+    },
+
+    {
+       "Quote": " धन – हीन को अच्छा वक्त आने की उम्मीद सदैव रहती है किंतु अमीरों को बुरा वक्त आने का खौफ। ",
+       "Auth": " Unknown  "
+    },
+
+    {
+       "Quote": " समय के साथ हालात बदल जाते हैं , इसलिए बदलाव में स्वयं को बदल लेना ही बुद्धिमानी है ",
+       "Auth": " Unknown  "
+    },
+
+    {
+       "Quote": " सभी प्राणियों में एक विशिष्ट प्रकार की प्रतिभा होती है जिसे अगर वह समय रहते समझ ले तो श्रेष्ठ बन जाता है ",
+       "Auth": " Unknown  "
+    },
+
+
+
   ];
 
   
