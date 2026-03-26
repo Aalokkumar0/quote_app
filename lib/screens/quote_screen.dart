@@ -7,8 +7,10 @@ class QuoteScreen extends StatefulWidget {
   @override
   State<QuoteScreen> createState() => _QuoteScreenState();
 }
-int index = 0;
+
 class _QuoteScreenState extends State<QuoteScreen> {
+  int index = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,50 +29,55 @@ class _QuoteScreenState extends State<QuoteScreen> {
         ),
       ),
       backgroundColor: const Color.fromARGB(81, 53, 16, 16),
-      body: Padding(
-        padding: const EdgeInsets.all(19.0),
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
+      body: SingleChildScrollView(
+        scrollDirection: Axis.vertical,
+          padding: const EdgeInsets.all(19.0),
+          child: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  quotes[index]["Quote"]!,
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 18,
+                    fontWeight: FontWeight.w900,
+                  ),
+                ),
+                SizedBox(height: 40),
 
-              Text(
-                quotes[0]["Quote"]!,
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 18,
-                  fontWeight: FontWeight.w900,
+                Text(
+                  quotes[index]["Auth"]!,
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 15,
+                    fontWeight: FontWeight.w100,
+                    fontStyle: FontStyle.italic,
+                  ),
                 ),
-              ),
-              SizedBox(height: 40),
-        
-              Text(
-                quotes[0]["Auth"]!,
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 15,
-                  fontWeight: FontWeight.w100,
-                  fontStyle:FontStyle.italic
+
+                SizedBox(height: 40),
+
+                ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Color.fromARGB(87, 156, 169, 8),
+                    foregroundColor: Colors.white,
+                    padding: EdgeInsets.symmetric(horizontal: 50),
+                  ),
+                  onPressed: () {
+                    setState(() {
+                      index = (index + 1) % quotes.length;
+                    });
+                  },
+                  child: Text(
+                    "Inspire Me",
+                    style: TextStyle(fontWeight: FontWeight.w900),
+                  ),
                 ),
-              ),
-        
-              SizedBox(height: 40,),
-        
-              ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  backgroundColor:Color.fromARGB(87, 156, 169, 8),
-                  foregroundColor: Colors.white,
-                  padding: EdgeInsets.symmetric(horizontal: 50)
-                ),
-                onPressed: () {
-                  
-                },
-                child: Text("Inspire Me",style: TextStyle(fontWeight: FontWeight.w900),),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
-      ),
-    );
+      );
   }
 }
