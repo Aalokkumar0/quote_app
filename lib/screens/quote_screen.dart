@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quote_app/data/all_quotes.dart';
 
 class QuoteScreen extends StatefulWidget {
   const QuoteScreen({super.key});
@@ -6,7 +7,7 @@ class QuoteScreen extends StatefulWidget {
   @override
   State<QuoteScreen> createState() => _QuoteScreenState();
 }
-
+int index = 0;
 class _QuoteScreenState extends State<QuoteScreen> {
   @override
   Widget build(BuildContext context) {
@@ -61,7 +62,7 @@ class _QuoteScreenState extends State<QuoteScreen> {
                   padding: EdgeInsets.symmetric(horizontal: 50)
                 ),
                 onPressed: () {
-                  print("Button Pressed");
+                  
                 },
                 child: Text("Inspire Me",style: TextStyle(fontWeight: FontWeight.w900),),
               ),
