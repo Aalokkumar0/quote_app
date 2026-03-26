@@ -33,8 +33,9 @@ class _QuoteScreenState extends State<QuoteScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+
               Text(
-                "“Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.”",
+                quotes[0]["Quote"]!,
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 18,
@@ -44,7 +45,7 @@ class _QuoteScreenState extends State<QuoteScreen> {
               SizedBox(height: 40),
         
               Text(
-                "-Albert Einstein",
+                quotes[0]["Auth"]!,
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 15,
