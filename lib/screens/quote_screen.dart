@@ -39,7 +39,7 @@ class _QuoteScreenState extends State<QuoteScreen> {
                 Text(
                   quotes[index]["Quote"]!,
                   style: TextStyle(
-                    color: Colors.white,
+                    color:Colors.blueGrey,
                     fontSize: 18,
                     fontWeight: FontWeight.w900,
                   ),
@@ -57,12 +57,11 @@ class _QuoteScreenState extends State<QuoteScreen> {
                 ),
 
                 SizedBox(height: 40),
-
-                ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: Color.fromARGB(87, 156, 169, 8),
+                TextButton(
+                  style: TextButton.styleFrom(
+                    backgroundColor: Color.fromARGB(86, 65, 71, 2),
                     foregroundColor: Colors.white,
-                    padding: EdgeInsets.symmetric(horizontal: 50),
+                    padding: EdgeInsets.symmetric(horizontal: 50,vertical: 30),
                   ),
                   onPressed: () {
                     setState(() {
@@ -74,6 +73,8 @@ class _QuoteScreenState extends State<QuoteScreen> {
                     style: TextStyle(fontWeight: FontWeight.w900),
                   ),
                 ),
+
+                
               ],
             ),
           ),
