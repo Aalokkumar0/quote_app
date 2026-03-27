@@ -9,7 +9,7 @@ class QuoteApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title:"QuoteApp",
-      home:QuoteScreen(),
+      home:const QuoteScreen(),
     );
   }
 }
