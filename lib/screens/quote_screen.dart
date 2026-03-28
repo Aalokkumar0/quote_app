@@ -15,7 +15,7 @@ class _QuoteScreenState extends State<QuoteScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: const Color.fromARGB(255, 16, 15, 15),
         toolbarHeight: 80,
         title: Center(
           child: Text(
@@ -28,7 +28,7 @@ class _QuoteScreenState extends State<QuoteScreen> {
           ),
         ),
       ),
-      backgroundColor: const Color.fromARGB(81, 53, 16, 16),
+      backgroundColor:Colors.black,
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
           padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 30),
@@ -47,11 +47,11 @@ class _QuoteScreenState extends State<QuoteScreen> {
                 SizedBox(height: 40),
 
                 Text(
-                  quotes[index]["Auth"]!,
+                  '@ ${quotes[index]["Auth"]!}',
                   style: TextStyle(
-                    color: Colors.white,
+                    color: const Color.fromARGB(255, 90, 160, 46),
                     fontSize: 15,
-                    fontWeight: FontWeight.w100,
+                    fontWeight: FontWeight.w400,
                     fontStyle: FontStyle.italic,
                   ),
                 ),
@@ -59,21 +59,20 @@ class _QuoteScreenState extends State<QuoteScreen> {
                 SizedBox(height: 40),
                 TextButton(
                   style: TextButton.styleFrom(
-                    backgroundColor: Color.fromARGB(86, 65, 71, 2),
+                    backgroundColor: Color.fromARGB(255, 65, 71, 2),
                     foregroundColor: Colors.white,
-                    padding: EdgeInsets.symmetric(horizontal: 50,vertical: 30),
+                    padding: EdgeInsets.symmetric(horizontal: 50,vertical: 10),
                   ),
                   onPressed: () {
                     setState(() {
                       index = (index + 1) % quotes.length;
                     });
                   },
-                  child: Text(
-                    "Inspire Me",
+                  child: const Text(
+                    "Read Next",
                     style: TextStyle(fontWeight: FontWeight.w900),
                   ),
                 ),
-
                 
               ],
             ),
